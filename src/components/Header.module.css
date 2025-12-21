@@ -1,0 +1,68 @@
+
+.headerContainer {
+  color: #0b4d3a;
+  width: 100%;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.search input {
+  width: 680px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #0b4d3a;
+  outline: none;
+}
+
+.auth {
+  display: flex;
+  gap: 16px;
+}
+
+.auth div {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.auth div:hover {
+  text-decoration: underline;
+}
+
+.navBar {
+  background-color: white; 
+  padding: 10px 24px;
+}
+
+.navList {
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 20px;
+}
+.navbarlist{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navList li {
+  cursor: pointer;
+  color: #0b4d3a;
+  font-weight: 500;
+}
+
+.navList li:hover {
+  color: #1f7a5c;
+}

@@ -2,31 +2,28 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #f9faf7; /* light cream background */
+  background-color: white; 
 }
 
-/* Header */
 .header {
-  background-color: #0b4d3a; /* dark green */
-  color: #ffffff;
+  background-color: #0b4d3a; 
+  color: white;
   padding: 16px 24px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Products section (center area) */
 .products {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 20px;
-  background-color: #fff8dc; /* soft yellow */
+  background-color: white; 
 }
 
-/* Footer */
 .footer {
-  background-color: #083c2c; /* deeper green */
-  color: #e6f2ee;
+  background-color: #083c2c; 
+  color: white;
   padding: 12px 20px;
   text-align: center;
   font-size: 14px;
