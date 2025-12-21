@@ -33,6 +33,7 @@
 .auth div {
   cursor: pointer;
   font-size: 14px;
+  margin: 20px;
 }
 
 .auth div:hover {
@@ -65,4 +66,11 @@
 
 .navList li:hover {
   color: #1f7a5c;
+}
+.cityBar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #d1e5dc;
 }

@@ -13,9 +13,11 @@ const Header = () => {
 
         <div className={styles.auth}>
           <div>
-            <i class="fa-solid fa-user"></i>
+            <i className="fa-solid fa-user"></i>
           </div>
-          <div>Signout</div>
+          <div>
+            <i className="fa-solid fa-arrow-right-from-bracket"></i>
+          </div>
         </div>
       </div>
 
@@ -27,6 +29,7 @@ const Header = () => {
           <li className={styles.navList}>Categories</li>
         </div>
       </div>
+      <div className={styles.cityBar}></div>
     </div>
   );
 };

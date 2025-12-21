@@ -6,9 +6,8 @@
 }
 
 .header {
-  background-color: #0b4d3a; 
   color: white;
-  padding: 16px 24px;
+  padding: 0px 24px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -22,9 +21,7 @@
 }
 
 .footer {
-  background-color: #083c2c; 
   color: white;
-  padding: 12px 20px;
   text-align: center;
   font-size: 14px;
 }
