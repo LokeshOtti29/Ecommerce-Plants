@@ -1,7 +1,8 @@
-import React from "react";
+import React, { use } from "react";
 import styles from "./Cards.module.css";
-
+import { useNavigate } from "react-router-dom";
 const Cards = ({ data, index }) => {
+  const navigate = useNavigate();
   return (
     <div className={styles.card} key={index}>
       <div className={styles.imageBox}>
@@ -14,7 +15,9 @@ const Cards = ({ data, index }) => {
       </div>
 
       <div className={styles.actions}>
-        <button>View Product</button>
+        <button onClick={() => navigate(`/product/${data.id}`)}>
+          View Product
+        </button>
       </div>
     </div>
   );
