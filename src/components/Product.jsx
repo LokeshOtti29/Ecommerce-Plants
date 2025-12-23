@@ -14,23 +14,23 @@ const Product = () => {
   }
 
   return (
-    <div className={styles.productCard}>
+    <div>
       <div>
         <Header />
       </div>
 
-      <div>
+      <div className={styles.productcard}>
         <div className={styles.productImage}>
           <img src={product.image} alt={product.title} />
         </div>
 
         <div className={styles.productDetails}>
-          <div className={styles.productTitle}>{product.title}</div>
+          <div className={styles.productTitle}>{product.name}</div>
 
           <div className={styles.productPrice}>₹{product.price}</div>
 
           <div className={styles.productActions}>
-            <button>Add to Cart</button>
+            <button className={styles.productButton}> Add to Cart</button>
           </div>
         </div>
       </div>

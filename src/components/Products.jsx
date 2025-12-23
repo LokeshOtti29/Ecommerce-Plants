@@ -1,13 +1,14 @@
 import React from "react";
 import Cards from "./Cards";
 import styles from "./Products.module.css";
+import img from "../assets/A_image_8.webp";
 export const products = [
   {
     id: 1,
     name: "Eco-Friendly Laptop",
     price: 60000,
     category: "Electronics",
-    image: "https://via.placeholder.com/300x200?text=Laptop",
+    image: img,
     description: "Energy-efficient laptop with sustainable materials.",
   },
   {
