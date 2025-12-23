@@ -3,6 +3,7 @@ import Header from "./Header";
 import Products from "./Products";
 import Footer from "./Footer";
 import styles from "./Home.module.css";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       </div>
 
       <div className={styles.products}>
-        <Products />
+        <Outlet />
       </div>
 
       <div className={styles.footer}>

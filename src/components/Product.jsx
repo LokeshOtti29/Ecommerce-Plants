@@ -15,10 +15,6 @@ const Product = () => {
 
   return (
     <div>
-      <div>
-        <Header />
-      </div>
-
       <div className={styles.productcard}>
         <div className={styles.productImage}>
           <img src={product.image} alt={product.title} />
@@ -33,9 +29,6 @@ const Product = () => {
             <button className={styles.productButton}> Add to Cart</button>
           </div>
         </div>
-      </div>
-      <div>
-        <Footer />
       </div>
     </div>
   );

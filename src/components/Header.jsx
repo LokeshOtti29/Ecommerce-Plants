@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
 
         <div className={styles.auth}>
           <div>
-            <i className="fa-solid fa-user"></i>
+            <Link to="/Login">
+              <i className="fa-solid fa-user"></i>
+            </Link>
           </div>
           <div>
             <i className="fa-solid fa-arrow-right-from-bracket"></i>
