@@ -10,7 +10,14 @@ const Header = () => {
         <div className={styles.logo}>EcoMart</div>
 
         <div className={styles.search}>
-          <input type="text" placeholder="Search products..." />
+          <span>
+            <input type="text" placeholder="Search products..." />
+          </span>
+          <span>
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </span>
         </div>
 
         <div className={styles.auth}>

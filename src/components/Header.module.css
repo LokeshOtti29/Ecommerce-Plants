@@ -20,11 +20,22 @@
 .search input {
   width: 680px;
   padding: 8px 12px;
-  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
   border: 1px solid #0b4d3a;
+  border-right: none;
   outline: none;
 }
-
+.search button{
+  padding: 8px 12px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid #0b4d3a;
+  border-left: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
 .auth {
   display: flex;
   gap: 16px;

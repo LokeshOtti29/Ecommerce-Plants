@@ -1,0 +1,106 @@
+.loginWrapper {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginCard {
+  width: 420px;
+  background-color: transparent;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subText {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.link {
+  color: #0b7d3b;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.socialButtons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.socialButtons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.facebook {
+  background-color: #1877f2;
+}
+
+.google {
+  background-color: #db4437;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.inputGroup input {
+  padding: 14px;
+  border: 1px solid #c8d9cc;
+  border-radius: 2px;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #0b7d3b;
+}
+
+.forgot {
+  color: #0b7d3b;
+  font-size: 14px;
+  margin: 15px 0 25px;
+  cursor: pointer;
+}
+
+.signInBtn {
+  width: 100%;
+  padding: 14px;
+  background-color: #0b7d3b;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signInBtn:hover {
+  background-color: #096a32;
+}
+
+.return {
+  margin-top: 20px;
+  color: #0b7d3b;
+  font-size: 14px;
+  cursor: pointer;
+}
