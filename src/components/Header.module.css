@@ -46,6 +46,7 @@
 }
 
 .navList {
+  cursor: pointer;
   gap: 24px;
   list-style: none;
   margin: 0;
