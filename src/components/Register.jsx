@@ -1,24 +1,13 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import styles from "./Login.module.css";
+import styles from "./Register.module.css";
 import { useNavigate } from "react-router-dom";
-const Login = () => {
+
+const Register = () => {
   const navigate = useNavigate();
   return (
-    <div className={styles.loginWrapper}>
-      <div className={styles.loginCard}>
-        <h2 className={styles.heading}>Login</h2>
-
-        <p className={styles.subText}>
-          Don&apos;t have an account yet?{" "}
-          <span
-            className={styles.link}
-            onClick={() => navigate("/account/Register")}
-          >
-            Create account
-          </span>
-        </p>
+    <div className={styles.wrapper}>
+      <div className={styles.card}>
+        <h2 className={styles.heading}>Create Account</h2>
 
         <div className={styles.socialButtons}>
           <button className={styles.facebook}>
@@ -30,13 +19,13 @@ const Login = () => {
         </div>
 
         <div className={styles.inputGroup}>
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Last name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
         </div>
 
-        <p className={styles.forgot}>Forgot your password?</p>
-
-        <button className={styles.signInBtn}>SIGN IN</button>
+        <button className={styles.createBtn}>CREATE</button>
 
         <p className={styles.return} onClick={() => navigate("/")}>
           Return to Store
@@ -46,4 +35,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

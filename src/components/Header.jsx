@@ -24,7 +24,7 @@ const Header = () => {
           <div>
             <i
               className="fa-solid fa-user"
-              onClick={() => navigate("/login")}
+              onClick={() => navigate("/account/login")}
             ></i>
           </div>
           <div>
