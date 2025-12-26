@@ -41,7 +41,9 @@ const Header = () => {
 
       <div className={styles.navBar}>
         <div className={styles.navbarlist}>
-          <li className={styles.navList}>Home</li>
+          <li className={styles.navList} onClick={() => navigate("/")}>
+            Home
+          </li>
 
           <li className={`${styles.navList} ${styles.dropdown}`}>
             Plants
