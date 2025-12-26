@@ -41,12 +41,36 @@ const Header = () => {
 
       <div className={styles.navBar}>
         <div className={styles.navbarlist}>
-          <li className={styles.navList} onClick={() => navigate("/")}>
-            Home
+          <li className={styles.navList}>Home</li>
+
+          <li className={`${styles.navList} ${styles.dropdown}`}>
+            Plants
+            <ul className={styles.menu}>
+              <li>Indoor</li>
+              <li>Outdoor</li>
+              <li>Flowering</li>
+            </ul>
           </li>
-          <li className={styles.navList}>About</li>
-          <li className={styles.navList}>Contact</li>
-          <li className={styles.navList}>Categories</li>
+
+          <li className={`${styles.navList} ${styles.dropdown}`}>
+            Seeds
+            <ul className={styles.menu}>
+              <li>Vegetable</li>
+              <li>Flower</li>
+              <li>Herb</li>
+            </ul>
+          </li>
+
+          <li className={`${styles.navList} ${styles.dropdown}`}>
+            Pots & Planters
+            <ul className={styles.menu}>
+              <li>Plastic</li>
+              <li>Ceramic</li>
+              <li>Hanging</li>
+            </ul>
+          </li>
+
+          <li className={styles.navList}>Contact Us</li>
         </div>
       </div>
       <div className={styles.cityBar}></div>

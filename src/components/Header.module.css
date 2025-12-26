@@ -16,6 +16,36 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+.navList {
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  padding: 6px 0;
+  list-style: none;
+  min-width: 140px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.menu li {
+  padding: 6px 12px;
+}
+
+.menu li:hover {
+  background: #f2f2f2;
+}
+
+.dropdown:hover .menu {
+  display: block;
+}
 
 .search input {
   width: 680px;
