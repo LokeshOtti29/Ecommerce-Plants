@@ -9,6 +9,7 @@ import Login from "./components/Login";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
 import Register from "./components/Register";
+import Categories from "./components/Categories";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/account/login" element={<Login />} />
           <Route path="cart" element={<Cart />} />
           <Route path="/account/Register" element={<Register />} />
+          <Route path="categories/:categoryName" element={<Categories />} />
         </Route>
       </Routes>
     </>

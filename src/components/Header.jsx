@@ -48,9 +48,11 @@ const Header = () => {
           <li className={`${styles.navList} ${styles.dropdown}`}>
             Plants
             <ul className={styles.menu}>
-              <li>Indoor</li>
-              <li>Outdoor</li>
-              <li>Flowering</li>
+              <li onClick={() => navigate("/categories/indoor")}>Indoor</li>
+              <li onClick={() => navigate("/categories/outdoor")}>Outdoor</li>
+              <li onClick={() => navigate("/categories/flowering")}>
+                Flowering
+              </li>
             </ul>
           </li>
 
