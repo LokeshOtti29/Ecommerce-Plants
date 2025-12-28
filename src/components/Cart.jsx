@@ -2,7 +2,9 @@ import React from "react";
 import { products } from "./Products";
 import styles from "./Cart.module.css";
 import ProductCard from "./ProductCard";
+import { useNavigate } from "react-router-dom";
 const Cart = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.cartContainer}>
       <div className={styles.cartItems}>
@@ -31,7 +33,12 @@ const Cart = () => {
           <span>₹0</span>
         </div>
 
-        <button className={styles.placeOrderBtn}>Place Order</button>
+        <button
+          className={styles.placeOrderBtn}
+          onClick={() => navigate("/Payment")}
+        >
+          Place Order
+        </button>
       </div>
     </div>
   );

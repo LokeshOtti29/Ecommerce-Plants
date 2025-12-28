@@ -10,6 +10,7 @@ import Products from "./components/Products";
 import Cart from "./components/Cart";
 import Register from "./components/Register";
 import Categories from "./components/Categories";
+import Payment from "./components/Payment";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/account/Register" element={<Register />} />
           <Route path="categories/:categoryName" element={<Categories />} />
         </Route>
+        <Route path="/Payment" element={<Payment />} />
       </Routes>
     </>
   );
